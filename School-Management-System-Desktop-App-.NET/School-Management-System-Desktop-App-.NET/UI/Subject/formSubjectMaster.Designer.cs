@@ -1,6 +1,6 @@
 ﻿namespace School_Management_System_Desktop_App_.NET.UI.Subject
 {
-    partial class frmSubjectMaster
+    partial class formSubjectMaster
     {
         /// <summary>
         /// Required designer variable.

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace School_Management_System_Desktop_App_.NET.UI.Grade
 {
-    public partial class frmGradeMaster : Form
+    public partial class formGradeMaster : Form
     {
-        public frmGradeMaster()
+        public formGradeMaster()
         {
             InitializeComponent();
         }

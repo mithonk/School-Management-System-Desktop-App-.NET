@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace School_Management_System_Desktop_App_.NET.UI.Student
 {
-    public partial class frmStudentCreate : Form
+    public partial class formStudentCreate : Form
     {
-        public frmStudentCreate()
+        public formStudentCreate()
         {
             InitializeComponent();
         }

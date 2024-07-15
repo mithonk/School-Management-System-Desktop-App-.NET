@@ -1,6 +1,6 @@
 ﻿namespace School_Management_System_Desktop_App_.NET.UI.Student
 {
-    partial class frmStudentEdit
+    partial class formStudentEdit
     {
         /// <summary>
         /// Required designer variable.

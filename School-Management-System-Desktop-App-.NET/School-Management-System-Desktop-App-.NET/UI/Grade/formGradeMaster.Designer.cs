@@ -1,6 +1,6 @@
 ﻿namespace School_Management_System_Desktop_App_.NET.UI.Grade
 {
-    partial class frmGradeMaster
+    partial class formGradeMaster
     {
         /// <summary>
         /// Required designer variable.

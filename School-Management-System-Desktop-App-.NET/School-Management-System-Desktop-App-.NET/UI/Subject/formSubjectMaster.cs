@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace School_Management_System_Desktop_App_.NET.UI.Subject
 {
-    public partial class frmSubjectMaster : Form
+    public partial class formSubjectMaster : Form
     {
-        public frmSubjectMaster()
+        public formSubjectMaster()
         {
             InitializeComponent();
         }
