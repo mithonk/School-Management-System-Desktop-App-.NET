@@ -189,7 +189,6 @@
             this.groupBox2.Size = new System.Drawing.Size(357, 335);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
             // 
             // textIndex
             // 

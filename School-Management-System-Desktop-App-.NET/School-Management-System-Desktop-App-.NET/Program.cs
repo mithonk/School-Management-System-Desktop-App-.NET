@@ -16,7 +16,7 @@ namespace School_Management_System_Desktop_App_.NET
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UI.Grade.formGradeMaster());
+            Application.Run(new UI.Student.formStudentMaster());
         }
     }
 }
