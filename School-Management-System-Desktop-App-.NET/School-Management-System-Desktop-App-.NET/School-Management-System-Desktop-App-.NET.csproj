@@ -105,6 +105,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UI\formDashboard.resx">
+      <DependentUpon>formDashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Grade\formGradeMaster.resx">
       <DependentUpon>formGradeMaster.cs</DependentUpon>
     </EmbeddedResource>

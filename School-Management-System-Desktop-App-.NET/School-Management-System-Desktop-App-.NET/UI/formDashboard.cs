@@ -16,5 +16,23 @@ namespace School_Management_System_Desktop_App_.NET.UI
         {
             InitializeComponent();
         }
+
+        private void studentsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UI.Student.formStudentMaster formStudentMaster = new UI.Student.formStudentMaster();
+            formStudentMaster.Show();
+        }
+
+        private void subjectsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UI.Subject.formSubjectMaster formSubjectMaster = new UI.Subject.formSubjectMaster();
+            formSubjectMaster.Show();
+        }
+
+        private void gradesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UI.Grade.formGradeMaster formGradeMaster = new UI.Grade.formGradeMaster();
+            formGradeMaster.Show();
+        }
     }
 }
