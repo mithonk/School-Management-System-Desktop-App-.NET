@@ -29,10 +29,6 @@ namespace School_Management_System_Desktop_App_.NET.UI
             formSubjectMaster.Show();
         }
 
-        private void gradesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            UI.Grade.formGradeMaster formGradeMaster = new UI.Grade.formGradeMaster();
-            formGradeMaster.Show();
-        }
+
     }
 }
