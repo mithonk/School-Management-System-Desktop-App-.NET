@@ -23,11 +23,7 @@ namespace School_Management_System_Desktop_App_.NET.UI.Student
             formStudentCreate.Show();
         }
 
-        private void btnEdit_Click(object sender, EventArgs e)
-        {
-            formStudentEdit formStudentEdit = new formStudentEdit();
-            formStudentEdit.Show();
-        }
+
 
         private void btnDelete_Click(object sender, EventArgs e)
         {

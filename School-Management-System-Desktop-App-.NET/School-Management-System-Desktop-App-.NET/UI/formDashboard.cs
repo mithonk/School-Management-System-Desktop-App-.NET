@@ -20,15 +20,22 @@ namespace School_Management_System_Desktop_App_.NET.UI
         private void studentsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             UI.Student.formStudentMaster formStudentMaster = new UI.Student.formStudentMaster();
+            formStudentMaster.MdiParent = this;
             formStudentMaster.Show();
         }
 
         private void subjectsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             UI.Subject.formSubjectMaster formSubjectMaster = new UI.Subject.formSubjectMaster();
+            formSubjectMaster.MdiParent = this;
             formSubjectMaster.Show();
         }
 
-
+        private void gradesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UI.Grade.formGradeMaster formGradeMaster = new UI.Grade.formGradeMaster();
+            formGradeMaster.MdiParent = this;
+            formGradeMaster.Show();
+        }
     }
 }

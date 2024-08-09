@@ -78,12 +78,6 @@
     <Compile Include="UI\Student\formStudentCreate.Designer.cs">
       <DependentUpon>formStudentCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Student\formStudentEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UI\Student\formStudentEdit.Designer.cs">
-      <DependentUpon>formStudentEdit.cs</DependentUpon>
-    </Compile>
     <Compile Include="UI\Student\formStudentMaster.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,9 +107,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Student\formStudentCreate.resx">
       <DependentUpon>formStudentCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI\Student\formStudentEdit.resx">
-      <DependentUpon>formStudentEdit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Student\formStudentMaster.resx">
       <DependentUpon>formStudentMaster.cs</DependentUpon>
