@@ -82,11 +82,7 @@ namespace School_Management_System_Desktop_App_.NET.UI.Grade
 
         private void formGradeMaster_FormClosing(object sender, FormClosingEventArgs e)
         {
-            DialogResult dr = MessageBox.Show("Do you want to Close?", "Question", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (dr == DialogResult.No)
-            {
-                e.Cancel = true;
-            }
+
         }
     }
 }
