@@ -249,6 +249,8 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "formSubjectMaster";
             this.Text = "formSubjectMaster";
             this.groupBox3.ResumeLayout(false);

@@ -109,6 +109,7 @@
             this.btnEdit.TabIndex = 4;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = false;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnAdd
             // 
@@ -153,6 +154,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.label1);
             this.Name = "formStudentMaster";
+            this.ShowIcon = false;
             this.Text = "frmStudentMaster";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.formStudentMaster_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dgvGrade)).EndInit();

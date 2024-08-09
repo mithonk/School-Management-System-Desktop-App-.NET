@@ -47,5 +47,11 @@ namespace School_Management_System_Desktop_App_.NET.UI.Student
                 e.Cancel = true;
             }
         }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            UI.Student.formStudentEdit formStudentEdit = new UI.Student.formStudentEdit();
+            formStudentEdit.ShowDialog();
+        }
     }
 }
